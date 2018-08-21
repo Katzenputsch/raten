@@ -1,4 +1,4 @@
-var goodGuys = ["23","Barnsey","Torvesta","Flint","GINO","Iniesta","Kurcho","Lexus","MixGaming","Patrick","Sachsen","SevN","The German","catpower", "Moy"];
+var goodGuys = ["23","Barnsey","Torvesta","Flint","GINO","Iniesta","Kurcho","Lexus","MixGaming","Patrick","Sachsen","SevN","The German","catpower", "Moy", "Manuel"];
 
 $(function(){
 
