@@ -1,0 +1,236 @@
+input::-webkit-input-placeholder {
+color: black !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;
+}
+
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;
+}
+
+input:-ms-input-placeholder {
+color: black !important;
+}
+
+html, body{
+	margin: 0;
+	font-family: Calibri, Arial, serif;
+	background-color: #6E6E6E;
+	max-width: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	font-family: Arial;
+}
+
+p{
+	margin: 0;
+}
+
+#nickHeader{
+    height: 20%;
+    background-color: #FFF;
+    text-align: center;
+}
+
+#nickHaupt{
+    border-top: 5px dashed #FFF;
+    height: 100%;
+}
+
+#headerLogo{
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+#headerLogo h1{
+    font-size: 48px;
+    color: #E6E6E6;
+    opacity: 0.6;
+    border-bottom: 2px solid #FF0000;
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+#nickBoxWrapper{
+    position: relative;
+    top: 200px;
+    width: 100%;
+    height: 300px;
+    /*border: 2px solid #FFF;*/
+}
+
+#nickBoxForm{
+    width: 30%;
+    height: 100%;
+    /*border: 2px solid #FFF;*/
+    margin: 0 auto;
+    text-align: center;
+    background-color: #A4A4A4;
+}
+
+#nickInput{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 38px;
+    border: 0.05em solid #000;
+}
+
+#playBtn{
+    border: none;
+    font-size: 68px;
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+    position: relative;
+    height: 200px;
+    top: 43px;
+    border: 1px dashed #FFF;
+    Cursor: pointer;
+}
+
+#alles{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#guessInput{
+    margin-bottom: 10px;
+    width: 100%;
+    color: #000000;
+    background-color: #8A8A8A;
+    font-size: 32px;
+    border: 2px solid #000;
+}
+
+#chatBox{
+	width: 100%;
+	height: 94%;
+    margin: auto;
+    word-wrap: break-word;
+    overflow-y: auto;
+}
+
+#chatInputBox{
+	width: 100%;
+	height: 6%;
+}
+
+#chatInput{
+	width: 100%;
+	height: 100%;
+}
+
+#infoBox{
+	text-align: center;
+    width: 50%;
+    float: left;
+}
+
+#infoText{
+	font-size: 30px;
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+#lovedOnes{
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    margin: 5px;
+    border: 1px dashed rgb(247, 181, 181);
+    text-align: center;
+    background-color: #F2F2F2;
+}
+
+#names{
+    line-height: 40px;
+    color: #fa0000;
+    margin-right: 100px;
+    display: inline;
+}
+
+#contact{
+    float: right;
+    height: 100%;
+    width: 80px;
+    background-color: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+    border: 2px solid rgb(38, 84, 129);
+}
+
+#contactTop{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(38, 84, 129);
+    border-radius: 20px 0px 0px 0px;
+}
+
+#hand{
+    font-size: 26px;
+    color: #FFFFFF;
+}
+
+#left{
+    position: relative;
+}
+
+#countdownTextBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#countdownText{
+    font-size: 10px;
+}
+
+#richtungsanzeigeBox{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#richtungsanzeige{
+    
+}
+
+#yearEventBox{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+
+}
+
+#yearEvent{
+
+}
+
+.circles{
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #fd0000;
+    position: absolute;
+}
+
+/*
+#shoppingCountdownBox{
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    border: 1px solid rgb(161, 161, 161);
+    height: 6%;
+}
+
+#shoppingCountdown{
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+}
+*/

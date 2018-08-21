@@ -1,0 +1,62 @@
+<html>
+<head>
+  <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+  <script type="text/javascript" src="libs/jQuery-3.1.1.js"></script>
+  <script type="text/javascript" src="libs/jquery.color.js"></script>
+  <script type="text/javascript" src="libs/jquery-ui.js"></script>
+  <script type="text/javascript" src="client.js"></script>
+  <script type="text/javascript" src="effects.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+  <div id="alles">
+        <div id="imageBox" style="width: 100%; height: 50%; background-color: #FFF; position: relative;">
+          <div id="left" style="float: left; width: 70%; height: 100%; background-color: #FFF; text-align: center;">
+            <div id="bild" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 300px; border: 5px solid #D8D8D8";></div>
+            <div id="countdownTextBox">
+              <h1 id="countdownText">9</h1>
+            </div>
+            <!--<div id="shoppingCountdownBox">
+              <p id="shoppingCountdown">-----</p>
+            </div>!-->
+            <div id="richtungsanzeigeBox">
+              <h1 id="richtungsanzeige">⤸ guess the amount of circles there!</h1>
+            </div>
+            <div id="yearEventBox">
+              <h1 id="yearEvent"></h1>
+            </div>
+          </div>
+          <div id="right" style="float: right; width: 30%; height: 100%; background-color: #848484;">
+            <div id="chatBox"></div>
+            <div id="chatInputBox">
+              <input type="text" id="chatInput" placeholder="chat" maxlength="100">
+            </div>
+          </div>
+        </div>
+        <input type="number" id="guessInput" placeholder="Your guess here!">
+        <div id="nickHeader" class="verschwinde">
+          <div id="lovedOnes">
+            <p id="names">test</p>
+          </div>
+        <div id="headerLogo">
+            <h1 id="logoText">0-2000.io</h1>
+            <h2 id="proto"><big>v. 0.0000000000000000000001</big></h3>
+        </div>
+    </div>
+    <div id="nickHaupt" class="verschwinde">
+        <div id="nickBoxWrapper">
+          <div id="contact" class="verschwinde">
+            <div id ="contactTop">
+              <p id="hand">☟</p>
+            </div>
+          </div>
+            <div id="nickBoxForm">
+                <input id="nickInput" type="text" placeholder="name :o" maxlength="15">
+                <br>
+                <button id="playBtn" type="button">play!</button>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
