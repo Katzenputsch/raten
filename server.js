@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
-var server = app.listen(3000);
+var port = process.env.PORT || 3600;
+var server = app.listen(port);
 var socket = require("socket.io");
 var io = socket(server);
 var spieler = [];
