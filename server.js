@@ -46,6 +46,9 @@ console.log("Server bereit...");
 server.lastPlayerID = 0;
 
 io.sockets.on("connection", function(socket){
+  
+  var address = socket.handshake.address;
+  console.log('New connection from ' + address.address + ':' + address.port);
 
   clients = io.sockets.clients();
 
